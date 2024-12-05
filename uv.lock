@@ -626,7 +626,7 @@ wheels = [
 
 [[package]]
 name = "wled2graph"
-version = "0.1.4"
+version = "0.1.5"
 source = { editable = "." }
 dependencies = [
     { name = "bokeh" },
@@ -636,9 +636,9 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "bokeh", specifier = ">=3.3.4,<4.0.0" },
-    { name = "icmplib", specifier = ">=3.0.4,<4.0.0" },
-    { name = "requests", specifier = ">=2.31.0,<3.0.0" },
+    { name = "bokeh", specifier = "~=3.0" },
+    { name = "icmplib", specifier = "~=3.0" },
+    { name = "requests", specifier = "~=2.0" },
 ]
 
 [[package]]
