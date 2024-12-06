@@ -23,5 +23,6 @@
         "every weekend"
       ]
     }
-  ]
+  ],
+    "lockFileMaintenance": { "enabled": true }
 }
